@@ -1,0 +1,8 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "rustdesk-harmony",
+  "version": "1.0.0",
+  "description": "HarmonyOS 6 native RustDesk controller",
+  "dependencies": {},
+  "devDependencies": {}
+}

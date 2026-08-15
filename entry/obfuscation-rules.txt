@@ -1,0 +1,4 @@
+# Keep the public native bridge names stable once the Rust N-API library is enabled.
+-keep-global-name
+remoteCore
+

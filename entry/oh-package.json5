@@ -1,0 +1,11 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "RustDesk Harmony entry module",
+  "main": "",
+  "author": "ponyrun",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "libremote_crypto.so": "file:./src/main/cpp/types/libremote_crypto"
+  }
+}

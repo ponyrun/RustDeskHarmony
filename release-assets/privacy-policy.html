@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RustDesk Harmony 隐私政策</title>
+  <style>
+    body{max-width:760px;margin:0 auto;padding:32px 20px 56px;background:#f5f6fa;color:#1b1c1f;font:16px/1.75 system-ui,-apple-system,"HarmonyOS Sans SC",sans-serif}
+    article{background:#fff;border-radius:20px;padding:28px;box-shadow:0 8px 30px #15233b12}h1{font-size:28px;margin:0 0 4px}h2{font-size:19px;margin:28px 0 8px}.meta,.note{color:#6f7279;font-size:14px}.notice{padding:12px 14px;border-radius:12px;background:#eef7ff;color:#145b92}
+  </style>
+</head>
+<body><article>
+  <h1>RustDesk Harmony 隐私政策</h1>
+  <p class="meta">版本：1.0.0　生效日期：2026-07-22　开发者：ponyrun</p>
+  <p class="notice">本应用是兼容 RustDesk 协议的第三方远程桌面客户端，并非 RustDesk 官方产品。</p>
+  <h2>一、处理的数据</h2>
+  <p>仅在用户主动使用对应功能时，应用会处理远端设备 ID、设备名称、服务器地址和公钥、Server Pro 用户名与访问令牌、连接密码、地址簿与局域网设备信息，以及用户主动发送或接收的聊天和剪贴板文本。</p>
+  <h2>二、目的与传输对象</h2>
+  <p>数据用于建立用户指定的远程控制会话、登录用户配置的 Server Pro、同步设备列表、搜索同一局域网内的兼容设备以及完成聊天和剪贴板交换。网络数据发送至用户配置或选择的 RustDesk/Server Pro 服务器和远端设备；开发者不运营默认数据收集服务器，也不集成广告或分析 SDK。</p>
+  <h2>三、本地存储与安全</h2>
+  <p>远端 ID、设备名称和服务器配置保存在 HarmonyOS Preferences。仅在用户勾选“记住连接密码”时，连接密码会写入 HarmonyOS Asset Store，并设置为设备解锁后可访问。Server Pro 密码不会持久化，访问令牌只保存在当前进程内存中。</p>
+  <h2>四、HTTP 风险</h2>
+  <p>应用默认不允许使用 HTTP 登录 Server Pro。若用户主动开启“允许 HTTP / 不安全 TLS”，登录凭据可能缺少传输层保护；该功能只应在用户信任的隔离内网中使用。</p>
+  <h2>五、权限与剪贴板</h2>
+  <p>应用仅声明网络访问权限，不申请受限的剪贴板读取权限。本机到远端的剪贴板发送需要用户主动粘贴和确认；远端到本机的文本仅在已建立的会话中写入系统剪贴板。</p>
+  <h2>六、保存期限与删除</h2>
+  <p>本地数据保存至用户删除对应主机、在应用隐私政策页面点击清除本地数据或卸载应用。Server Pro 中的账户和地址簿由用户所选服务器管理，用户应通过该服务器管理员提供的渠道查询、更正或删除。</p>
+  <h2>七、未成年人、政策变更与联系</h2>
+  <p>本应用不面向未满十四周岁的儿童提供专门服务。政策发生实质变化时，应用会更新生效日期并重新征求同意。用户可通过华为应用市场详情页展示的开发者联系方式联系开发者。</p>
+  <p class="note">发布前请将本文件部署到开发者可长期访问的 HTTPS 地址，并将同一地址填写到华为应用市场隐私政策字段。</p>
+</article></body></html>

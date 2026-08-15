@@ -1,0 +1,10 @@
+RustDesk Harmony 1.0.0 corresponding source code
+
+This application contains software distributed under the GNU Affero General Public License v3.0 or later.
+
+Before submission, replace the line below with a public, version-pinned URL containing the complete corresponding source and build instructions for the submitted HAP:
+
+SOURCE_URL=[REQUIRED: public HTTPS URL for the exact 1.0.0 source revision]
+
+The source release must include LICENSE, THIRD_PARTY_NOTICES.md, build scripts, Rust/ArkTS/C++ sources, pinned dependency revisions and the instructions needed to reproduce the distributed version.
+

@@ -1,0 +1,17 @@
+[package]
+name = "remote_core"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-or-later"
+description = "HarmonyOS native boundary for the RustDesk-compatible controller"
+
+[lib]
+name = "remote_core"
+crate-type = ["cdylib", "staticlib"]
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+panic = "abort"
+strip = true
+

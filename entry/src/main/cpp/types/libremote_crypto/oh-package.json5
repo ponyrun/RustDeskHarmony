@@ -1,0 +1,6 @@
+{
+  "name": "libremote_crypto.so",
+  "types": "./index.d.ts",
+  "version": "1.0.0",
+  "description": "Native RustDesk cryptographic session support"
+}

@@ -1,0 +1,6 @@
+{
+  "string": [
+    { "name": "module_desc", "value": "HarmonyOS 6 remote desktop controller" },
+    { "name": "entry_ability_desc", "value": "RustDesk Harmony main ability" }
+  ]
+}
